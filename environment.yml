@@ -1,0 +1,24 @@
+name: denovo-rna-var
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - nextflow=25.10.4
+  - bedtools=2.31.1
+  - bwa=0.7.19
+  - samtools=1.22.1
+  - seqtk=1.5
+  - spades=4.2.0
+  - cd-hit=4.8.1
+  - bowtie2=2.5.4
+  - pilon=1.24
+  - assembly-stats=1.0.1
+  - augustus=3.5.0
+  - subread=2.1.1
+  - blast=2.17.0
+  - seqkit=2.10.1
+  - hmmer=3.4
+  - fastqc=0.12.1
+  - multiqc=1.31
+  - trimmomatic=0.40
+  - bioconda::emboss=6.6.0

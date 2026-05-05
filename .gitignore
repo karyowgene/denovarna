@@ -1,0 +1,9 @@
+data/Reference/hg38.fasta
+data/varDB/FullDataset/
+data/varDB/NormalisedDataset/
+data/varDB/NormalisedDataset/*gz
+data/varDB/NormalisedDataset/varDB_Normalised_3kb_nt_noVARx_noExon2.fasta
+data/varDB/NormalisedDataset/TSNE/
+data/varDB/NormalisedDataset/Domains/
+data/HmmerDomains/rask_hmm_database/
+data/HmmerDomains/raskhmm_db
