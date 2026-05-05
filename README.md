@@ -289,7 +289,7 @@ Before running, check `nextflow.config` and customize parameters if needed:
 
 ### Basic Execution
 
-#### Local Machine (Single CPU):
+#### Local Machine:
 
 ```bash
 nextflow run main.nf -profile local
