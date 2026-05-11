@@ -175,7 +175,7 @@ process DomainsAnnotation {
         sort -nrk 14 > ${sample_name}.Domain.gff
 
     # Domain structured summary with correct order
-    ${order_domains} ${sample_name}.Domhit.domain.txt > ${sample_name}.Domain.association.structured.txt
+    python ${order_domains} ${sample_name}.Domhit.domain.txt > ${sample_name}.Domain.association.structured.txt
 
     """
 }
@@ -221,7 +221,7 @@ process SubDomainsAnnotation {
         sed 's/Domain\\.//g'> ${sample_name}.Subdomain.gff
 
     # Domain structured summary with correct order
-    sed 's/Domain\\.//g' ${sample_name}.Domhit.suddomain.txt | ${order_subdomains} > ${sample_name}.Subdomain.association.structured.txt
+    sed 's/Domain\\.//g' ${sample_name}.Domhit.suddomain.txt | python ${order_subdomains} > ${sample_name}.Subdomain.association.structured.txt
 
     """
 }
